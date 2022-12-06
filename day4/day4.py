@@ -1,4 +1,4 @@
-##### DAY 3 #####
+##### DAY 4 #####
 
 # Input Processing
 with open(f"day4/input.txt") as f:
