@@ -2,7 +2,7 @@
 
 # Input Processing
 with open(f"day6/input.txt") as f:
-    input_string = f.readlines()[0]
+    input_string: str = f.readlines()[0]
 
 # Star 1
 def find_packet_start(datastream: str) -> int:
