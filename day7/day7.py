@@ -26,7 +26,7 @@ class Directory:
         result = []
         for child in self.children.values():
             result += child.determine_if_big()
-        return (result + [self.size]) if self.size <= 100000 else result
+        return (result + [self.size]) if self.size <= 100_000 else result
 
     def get_all_sizes(self) -> list[int]:
         # ADDED FOR STAR 2
